@@ -39,12 +39,6 @@ public class ProdutoController {
 
 	}
 	
-	@GetMapping("/produto/{codigo}")
-	public Produto recuperarProduto(@PathVariable String codigo) {
-		
-		
-	}
-	
 	@PostMapping("/produtos")
 	public Produto salvarProduto (@RequestBody CadastrarProdutoRequest requisicao) {
 		
